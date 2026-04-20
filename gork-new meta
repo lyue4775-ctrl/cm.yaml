@@ -53,7 +53,10 @@ ruleset=🧑‍💻 GitHub,[]GEOSITE,github
 ruleset=🧑‍💻 GitHub,[]GEOIP,github,no-resolve
 ruleset=🚝 测速工具,[]GEOSITE,category-speedtest
 ruleset=🎮 Steam,[]GEOSITE,steam
-; --- 交易所 & Adobe（全部走 GEOSITE）---
+; --- 交易所 & Adobe（全部走 GEOSITE）---云服务 / 存储---
+ruleset=☁️ iCloud,[]GEOSITE,icloud
+ruleset=☁️ OneDrive,[]DOMAIN-SUFFIX,onedrive.live.com
+ruleset=📦 GoogleDrive,[]GEOSITE,google-drive
 ruleset=🟦 OKX,[]GEOSITE,okx
 ruleset=🟨 Binance,[]GEOSITE,binance
 ruleset=🟪 Bybit,[]GEOSITE,bybit
@@ -132,3 +135,5 @@ custom_proxy_group=🇸🇬 SG`url-test`SG|新加坡|singapore`http://www.gstati
 custom_proxy_group=🇺🇸 US`url-test`US|美国|united|los|san|seattle`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=☁️ CF优选`url-test`CF优选|CF|cloudflare`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🧊 冷门节点`select`(?i)^(?!.*(🇭🇰|HK|香港|🇯🇵|JP|日本|NRT|tokyo|osaka|🇸🇬|SG|新加坡|🇺🇸|US|美国|CF优选)).*
+; 5) DNS 防污染（可选）
+dns_servers=119.29.29.29,119.28.28.28,8.8.8.8,1.1.1.1
