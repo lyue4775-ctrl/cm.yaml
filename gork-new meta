@@ -28,7 +28,7 @@ ruleset=DIRECT,[]GEOSITE,google-cn
 ruleset=DIRECT,[]GEOSITE,category-games@cn
 ruleset=DIRECT,[]GEOSITE,category-game-platforms-download
 ruleset=DIRECT,[]GEOSITE,category-public-tracker
-; ------------请在下方区域内添加应用-
+; ------------ 请在下方区域内添加应用 ----------
 ; --- 核心应用 ---
 ruleset=📦 Notion,[]GEOSITE,Notion
 ruleset=📦 Notion,[]GEOIP,Notion,no-resolve
@@ -53,7 +53,7 @@ ruleset=🧑‍💻 GitHub,[]GEOSITE,github
 ruleset=🧑‍💻 GitHub,[]GEOIP,github,no-resolve
 ruleset=🚝 测速工具,[]GEOSITE,category-speedtest
 ruleset=🎮 Steam,[]GEOSITE,steam
-; --- 交易所 & Adobe（全部走 GEOSITE
+; --- 交易所 & Adobe（全部走 GEOSITE）---
 ruleset=🟦 OKX,[]GEOSITE,okx
 ruleset=🟨 Binance,[]GEOSITE,binance
 ruleset=🟪 Bybit,[]GEOSITE,bybit
@@ -65,7 +65,7 @@ ruleset=🟪 Bybit,[]GEOSITE,bybit
 ; --- 社交 / 通讯 ---
 ruleset=📞 即时通讯,[]GEOSITE,category-communication
 ruleset=💬 社交媒体,[]GEOSITE,category-social-media-!cn
-;--- 社交 / 通讯 ---
+; --- 社交 / 通讯 ---
 ruleset=↔️ teamviewer,[]GEOSITE,teamviewer
 ruleset=↔️ teamviewer,[]GEOIP,teamviewer,no-resolve
 ruleset=☁️ cloudflare,[]GEOSITE,cloudflare
